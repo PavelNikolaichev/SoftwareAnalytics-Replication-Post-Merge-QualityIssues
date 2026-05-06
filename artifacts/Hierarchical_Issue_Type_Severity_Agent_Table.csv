@@ -1,0 +1,10 @@
+Issue Type,Severity,Claude_Code,Copilot,Devin,OpenAI_Codex
+BUG,BLOCKER,0,0,1,0
+,MAJOR,2,0,1,4
+**BUG Total**,,2,0,2,4
+CODE_SMELL,CRITICAL,38,146,32,55
+,INFO,0,6,1,4
+,MAJOR,10,32,3,31
+,MINOR,4,8,12,68
+**CODE_SMELL Total**,,52,192,48,158
+**GRAND TOTAL**,,54,192,50,162

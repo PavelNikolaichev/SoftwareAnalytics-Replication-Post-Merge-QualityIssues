@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Top 5 Most Violated SonarQube Rules per Issue Type with Agent Distribution}
+\label{tab:top5_rules_per_type}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lp{1.8cm}p{5cm}ccccc@{}}
+\toprule
+\textbf{Issue Type} & \textbf{Rule ID} & \textbf{Description} & \textbf{Total} & \textbf{Claude\_Code} & \textbf{Copilot} & \textbf{Devin} & \textbf{OpenAI\_Codex} \\
+\midrule
+\multirow{5}{*}{BUG} & python:S3923 & Description not available & 3 & 0 & 0 & 0 & 3 (100.0\%) \\
+ & python:S1763 & Description not available & 2 & 2 (100.0\%) & 0 & 0 & 0 \\
+ & python:S3981 & Description not available & 1 & 0 & 0 & 0 & 1 (100.0\%) \\
+ & python:S905 & Description not available & 1 & 0 & 0 & 1 (100.0\%) & 0 \\
+ & python:S5807 & Description not available & 1 & 0 & 0 & 1 (100.0\%) & 0 \\
+\cline{2-8}
+\multirow{5}{*}{CODE_SMELL} & python:S1192 & String literals should not be duplicated & 88 & 26 (29.5\%) & 22 (25.0\%) & 25 (28.4\%) & 15 (17.0\%) \\
+ & python:S5655 & Description not available & 78 & 0 & 78 (100.0\%) & 0 & 0 \\
+ & python:S3776 & Cognitive Complexity of functions should not be too high & 77 & 12 (15.6\%) & 40 (51.9\%) & 6 (7.8\%) & 19 (24.7\%) \\
+ & python:S117 & Description not available & 63 & 0 & 2 (3.2\%) & 0 & 61 (96.8\%) \\
+ & python:S1172 & Unused function parameters should be removed & 26 & 0 & 6 (23.1\%) & 0 & 20 (76.9\%) \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

@@ -1,101 +1,76 @@
-<p style="border:1px; border-style:solid; border-color:black; padding: 1em;">
-CS-UH 3260 Software Analytics<br/>
-Replication Study Guidelines<br/>
-Dr. Sarah Nadi, NYUAD
-</p>
+## 1. Project Title and Overview
 
-# Replication Repository README Template -- CS-UH-3260 Software Analytics
+- **Paper Title**: Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues in Agent-Generated Pull Requests
+- **Authors**: Shamse Tasnim Cynthia, Al Muttakin, Banani Roy
+- **Brief description (paper)**: The paper studies post-merge code quality problems introduced by agent-generated pull requests using SonarQube metrics and manual inspection.
+- **Brief description (this replication)**: We reproduced the SonarQube-based analysis pipeline: (a) ran the original sequential notebook for an initial subset (123 PRs), (b) implemented a parallel, per-repository worker model to scale processing, and (c) extracted Sonar issues, security hotspots, and merged PR LOC stats to produce the final artifacts used in analysis.
 
-
-## Overview
-
-This repo provides a template and and guidelines for creating a README file for your replication study repository. The README serves as the primary documentation for your repository and helps evaluators understand your work, navigate your repository structure, and reproduce your replication. You can create a repo based on this template and modify the README and content as needed.
-
-
-## README Structure Template
-
-Your repository README should include the following sections:
-
-### 1. Project Title and Overview
-
-- **Paper Title**: [Full title of the replicated paper]
-- **Authors**: [Original paper authors]
-- **Replication Team**: [Your team members' names]
-- **Course**: CS-UH 3260 Software Analytics, NYUAD
-- **Brief Description**: 
-  - 2-3 sentences summarizing what the original paper is about
-  - 2-3 sentences summarizing what this replication study does
-
-### 2. Repository Structure
-
-Document your repository structure clearly. Organize your repository using the following standard structure:
+## 2. Repository Structure (replication folder)
 
 ```
-README                    # Documentation for your repository
-datasets/                 # Subset of data you used (if any). If you used the whole dataset, include instructions on how to download it
-replication_scripts/      # Scripts used in your replication:
-                          #   - If you used scripts as-is: document which scripts you ran
-                          #   - If you modified scripts: include the modified scripts
-                          #   - If you created new scripts: include all new scripts
-outputs/                  # Your generated results only
-logs/                     # Console output, errors, screenshots
-notes/                    # Optional if you have any notes you took during reproduction (E.g., where you noted discrepencies etc)
+SoftwareAnalytics-Replication-Post-Merge-QualityIssues/
+  README.md                         # This file (replication instructions + overview)
+  .env.example                       # example env vars
+  notebooks/
+    SonarAnalysis.ipynb             # sonar analysis notebook
+    result-analysis.ipynb           # downstream analysis + plotting
+  datasets/
+    All_PR_Sonar_Results.json
+    All_PR_Sonar_Results.csv
+    All_PR_Issues_Details_with_LOC.csv
+    python_fix_prs_with_stats.csv
+    python_fix_prs.csv
+    Security_Hotspots.json
+  artifacts/
+   # CSVs and JSONs produced by sonar analysis
+   # graphs, tables and other artifacts produced by result-analysis
+  logs/
+   # logs from the notebook runs and screenshots of the cells and errors encountered
 ```
 
-**For each folder and file, provide a brief description of what it contains.**
+## 3. Setup Instructions
 
-### 3. Setup Instructions
+### Prerequisites
 
-- **Prerequisites**: Required software, tools, and versions
-  - OS requirements
-  - Programming language versions (Python, R, etc.)
-  - Required packages/libraries and versions
-  - Any other dependencies
-- **Installation Steps**: Step-by-step instructions to set up the environment
-  - How to install dependencies
-  - How to configure paths or settings
-  - Any environment variables needed
+- OS: Windows
+- Python: 3.11.15 (Conda environment)
+- Git
+- Docker (used to run SonarQube Community LTS)
+- SonarScanner CLI
 
-### 4. GenAI Usage
+### Environment variables (.env)
 
-**GenAI Usage**: Briefly document any use of generative AI tools (e.g., ChatGPT, GitHub Copilot, Cursor) during the replication process. Include:
+- `GITHUB_TOKEN` — GitHub API token (repo access)
 
-  - Which tools were used
-  - How they were used (e.g., understanding scripts, exploring datasets, understanding data fields, debugging)
-  - Brief description of the assistance provided
+### SonarQube setup
 
+1. Run SonarQube (Docker example):
 
-## Grading Criteria for README
+```powershell
+docker run -d --name sonarqube -p 9000:9000 sonarqube:lts
+```
 
-Your README will be evaluated based on the following aspects (Total: 40 points):
+Wait until SonarQube UI is reachable at `http://localhost:9000`, then create a user token and set `SONAR_TOKEN` in the notebook.
 
-### 1. Completeness (10 points)
-- [ ] All required sections are present
-- [ ] Each section contains sufficient detail
-- [ ] Repository structure is fully documented
-- [ ] All files and folders are explained
-- [ ] GenAI usage is documented (if any AI tools were used)
+2. Ensure `sonar-scanner` is on `PATH` or set `SONAR_SCANNER_PATH` in `.env` and export it in the notebooks.
 
-### 2. Clarity and Organization (5 points)
-- [ ] Information is well-organized and easy to follow
-- [ ] Instructions are clear and unambiguous
-- [ ] Professional writing and formatting
-- [ ] Proper use of markdown formatting (headers, code blocks, lists)
+## 4. Additional info
 
-### 3. Setup and Reproducibility (10 points)
-- [ ] Setup instructions are complete and accurate, i.e., we were able to rerun the scripts following your instructions and obtain the results you reported
+- Firstly run the SonarAnalysis notebook, note that you might need to adjust some of the pathes for the data and artifacts output. Ensure your .env is placed in the same folder, where your notebooks are.
+- During the Sonar analysis cells, we have executed first 123 PRs using original cell, and later opted out to our own parallelized implementation, which is placed below the original cell, up to 443 PRs. Parallel worker implementation utilizes per Repository grouping, which is why running these cells in different order might produce different results.
+- Note, Sonar instance is using elastic search, so expect the RAM consumption to be extremely high, especially with parallel workers.
 
+## 5. Modifications
 
-## Best Practices
+- Per-repository worker model: PRs are grouped by repository and each worker processes all PRs for its assigned repos (avoids repeated cloning and reduces I/O).
+- Parallel extraction: ThreadPoolExecutor is used for both Sonar issue fetches and security-hotspot extraction, which speeds up the pipeline severalfolds. Adjust the number of workers based on your CPU threads and SonarQube worker capacity (community has only one worker, and it's idle time is dependent on your parallel workers in the notebook).
+- Small parsing/formatting fixes in extraction cells to prevent errors in the column names.
 
-1. **Be Specific**: Include exact versions, paths, and commands rather than vague descriptions
-2. **Keep It Updated**: Ensure the README reflects the current state of your repository
-3. **Test Your Instructions**: Have someone else (or yourself in a fresh environment) follow the setup instructions
-4. **Document AI Usage**: If you used any GenAI tools, be transparent about how they were used (e.g., understanding scripts, exploring datasets, understanding data fields)
+## 6. Analysis / Scripts
 
+- `notebooks/SonarAnalysis.ipynb` — main pipeline (cloning, checkout, sonar analysis, issues extraction, hotspots, JSON/CSV exports).
+- `notebooks/result-analysis.ipynb` — aggregation and plotting steps; produces the CSVs used for further statistical analysis.
 
-## Acknowledgement
+## 7. GenAI Usage
 
-This guideline was developed with the assistance of [Cursor](https://www.cursor.com/), an AI-powered code editor. This tool was used to:
-
-- Draft and refine this documentation iteratively
+- Copilot was used to assist with setting up the SonarQube container and describe the changes made based on the git diff of the original repo and our modifications.

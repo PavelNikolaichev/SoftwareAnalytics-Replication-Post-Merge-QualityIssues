@@ -1,0 +1,2022 @@
+[
+  {
+    "pr_info": {
+      "pr_number": 86,
+      "pr_html_url": "https://github.com/Deep-Learning-Profiling-Tools/triton-viz/pull/86",
+      "owner": "Deep-Learning-Profiling-Tools",
+      "repo": "triton-viz",
+      "agent": "Claude_Code"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkkzbz09E0InapXiis",
+        "component": "PR_triton-viz_86:triton_viz/visualizer/interface.py",
+        "project": "PR_triton-viz_86",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 13,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:43-0600",
+        "updateDate": "2025-12-28T04:48:43-0600",
+        "textRange": {
+          "startLine": 13,
+          "endLine": 17,
+          "startOffset": 6,
+          "endOffset": 1
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 241,
+      "pr_html_url": "https://github.com/basicmachines-co/basic-memory/pull/241",
+      "owner": "basicmachines-co",
+      "repo": "basic-memory",
+      "agent": "Claude_Code"
+    },
+    "hotspots_count": 5,
+    "hotspots": [
+      {
+        "key": "AZtkkw9b09E0InapXfqQ",
+        "component": "PR_basic-memory_241:tests/api/test_project_router.py",
+        "project": "PR_basic-memory_241",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 223,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:29-0600",
+        "updateDate": "2025-12-28T04:48:29-0600",
+        "textRange": {
+          "startLine": 223,
+          "endLine": 223,
+          "startOffset": 16,
+          "endOffset": 41
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkkw9b09E0InapXfqR",
+        "component": "PR_basic-memory_241:tests/api/test_project_router.py",
+        "project": "PR_basic-memory_241",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 295,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:29-0600",
+        "updateDate": "2025-12-28T04:48:29-0600",
+        "textRange": {
+          "startLine": 295,
+          "endLine": 295,
+          "startOffset": 22,
+          "endOffset": 37
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkkw9b09E0InapXfqS",
+        "component": "PR_basic-memory_241:tests/api/test_project_router.py",
+        "project": "PR_basic-memory_241",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 310,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:29-0600",
+        "updateDate": "2025-12-28T04:48:29-0600",
+        "textRange": {
+          "startLine": 310,
+          "endLine": 310,
+          "startOffset": 16,
+          "endOffset": 43
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkkw9b09E0InapXfqT",
+        "component": "PR_basic-memory_241:tests/api/test_project_router.py",
+        "project": "PR_basic-memory_241",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 340,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:29-0600",
+        "updateDate": "2025-12-28T04:48:29-0600",
+        "textRange": {
+          "startLine": 340,
+          "endLine": 340,
+          "startOffset": 16,
+          "endOffset": 44
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkkw9b09E0InapXfqU",
+        "component": "PR_basic-memory_241:tests/api/test_project_router.py",
+        "project": "PR_basic-memory_241",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 373,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:48:29-0600",
+        "updateDate": "2025-12-28T04:48:29-0600",
+        "textRange": {
+          "startLine": 373,
+          "endLine": 373,
+          "startOffset": 16,
+          "endOffset": 45
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 18363,
+      "pr_html_url": "https://github.com/PrefectHQ/prefect/pull/18363",
+      "owner": "PrefectHQ",
+      "repo": "prefect",
+      "agent": "Claude_Code"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkup-B09E0InapaHTU",
+        "component": "PR_prefect_18363:src/integrations/prefect-dbt/tests/core/test_settings.py",
+        "project": "PR_prefect_18363",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 273,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:31:08-0600",
+        "updateDate": "2025-12-28T05:31:08-0600",
+        "textRange": {
+          "startLine": 273,
+          "endLine": 273,
+          "startOffset": 63,
+          "endOffset": 77
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 16112,
+      "pr_html_url": "https://github.com/mlflow/mlflow/pull/16112",
+      "owner": "mlflow",
+      "repo": "mlflow",
+      "agent": "Copilot"
+    },
+    "hotspots_count": 7,
+    "hotspots": [
+      {
+        "key": "AZtkxJ1j09E0Inapd4kZ",
+        "component": "PR_mlflow_16112:mlflow/utils/rest_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 441,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 441,
+          "endLine": 441,
+          "startOffset": 36,
+          "endOffset": 51
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJyS09E0Inapd4j1",
+        "component": "PR_mlflow_16112:tests/tracking/_model_registry/test_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 143,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 143,
+          "endLine": 143,
+          "startOffset": 23,
+          "endOffset": 56
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJyS09E0Inapd4j6",
+        "component": "PR_mlflow_16112:tests/tracking/_model_registry/test_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 231,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 231,
+          "endLine": 231,
+          "startOffset": 23,
+          "endOffset": 49
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJv109E0Inapd4jA",
+        "component": "PR_mlflow_16112:tests/utils/test_rest_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 654,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 654,
+          "endLine": 654,
+          "startOffset": 33,
+          "endOffset": 53
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJv109E0Inapd4jB",
+        "component": "PR_mlflow_16112:tests/utils/test_rest_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 694,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 694,
+          "endLine": 694,
+          "startOffset": 33,
+          "endOffset": 53
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJv109E0Inapd4jC",
+        "component": "PR_mlflow_16112:tests/utils/test_rest_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 726,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 726,
+          "endLine": 726,
+          "startOffset": 33,
+          "endOffset": 53
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkxJv109E0Inapd4jD",
+        "component": "PR_mlflow_16112:tests/utils/test_rest_utils.py",
+        "project": "PR_mlflow_16112",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 766,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T05:42:05-0600",
+        "updateDate": "2025-12-28T05:42:05-0600",
+        "textRange": {
+          "startLine": 766,
+          "endLine": 766,
+          "startOffset": 33,
+          "endOffset": 53
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 278,
+      "pr_html_url": "https://github.com/Ljzd-PRO/KToolBox/pull/278",
+      "owner": "Ljzd-PRO",
+      "repo": "KToolBox",
+      "agent": "Copilot"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtk0vD309E0Inapi9tz",
+        "component": "PR_KToolBox_278:ktoolbox/action/job.py",
+        "project": "PR_KToolBox_278",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 121,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "198982749+copilot@users.noreply.github.com",
+        "creationDate": "2025-12-28T05:58:21-0600",
+        "updateDate": "2025-12-28T05:58:21-0600",
+        "textRange": {
+          "startLine": 121,
+          "endLine": 121,
+          "startOffset": 38,
+          "endOffset": 47
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 11601,
+      "pr_html_url": "https://github.com/gradio-app/gradio/pull/11601",
+      "owner": "gradio-app",
+      "repo": "gradio",
+      "agent": "Copilot"
+    },
+    "hotspots_count": 2,
+    "hotspots": [
+      {
+        "key": "AZtkXnY809E0InapHlbB",
+        "component": "PR_gradio_11601:test/test_external_utils.py",
+        "project": "PR_gradio_11601",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 122,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T03:50:56-0600",
+        "updateDate": "2025-12-28T03:50:56-0600",
+        "textRange": {
+          "startLine": 122,
+          "endLine": 122,
+          "startOffset": 8,
+          "endOffset": 32
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtkXnY809E0InapHlbC",
+        "component": "PR_gradio_11601:test/test_external_utils.py",
+        "project": "PR_gradio_11601",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 144,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T03:50:56-0600",
+        "updateDate": "2025-12-28T03:50:56-0600",
+        "textRange": {
+          "startLine": 144,
+          "endLine": 144,
+          "startOffset": 39,
+          "endOffset": 63
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 16878,
+      "pr_html_url": "https://github.com/mlflow/mlflow/pull/16878",
+      "owner": "mlflow",
+      "repo": "mlflow",
+      "agent": "Copilot"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtk4uYj09E0InapoMEB",
+        "component": "PR_mlflow_16878:tests/store/artifact/test_runs_artifact_repo.py",
+        "project": "PR_mlflow_16878",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 123,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:15:08-0600",
+        "updateDate": "2025-12-28T06:15:08-0600",
+        "textRange": {
+          "startLine": 123,
+          "endLine": 123,
+          "startOffset": 25,
+          "endOffset": 59
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 9,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/9",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 20,
+    "hotspots": [
+      {
+        "key": "AZtk7onh09E0InapsiVy",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 283,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 283,
+          "endLine": 283,
+          "startOffset": 10,
+          "endOffset": 39
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7on-09E0InapsiV4",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi_v2/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 283,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 283,
+          "endLine": 283,
+          "startOffset": 10,
+          "endOffset": 39
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ono09E0InapsiV1",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi_v3/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 283,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 283,
+          "endLine": 283,
+          "startOffset": 10,
+          "endOffset": 39
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV5",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 250,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 250,
+          "endLine": 250,
+          "startOffset": 15,
+          "endOffset": 35
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV6",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 252,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 252,
+          "endLine": 252,
+          "startOffset": 13,
+          "endOffset": 40
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV7",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 252,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 252,
+          "endLine": 252,
+          "startOffset": 42,
+          "endOffset": 69
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV8",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 253,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 253,
+          "endLine": 253,
+          "startOffset": 27,
+          "endOffset": 50
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV9",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 276,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 276,
+          "endLine": 276,
+          "startOffset": 11,
+          "endOffset": 26
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooC09E0InapsiV-",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 289,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 289,
+          "endLine": 289,
+          "startOffset": 16,
+          "endOffset": 59
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWB",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 270,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 270,
+          "endLine": 270,
+          "startOffset": 13,
+          "endOffset": 32
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWC",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 271,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 271,
+          "endLine": 271,
+          "startOffset": 20,
+          "endOffset": 44
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWD",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 271,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 271,
+          "endLine": 271,
+          "startOffset": 45,
+          "endOffset": 69
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWE",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 271,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 271,
+          "endLine": 271,
+          "startOffset": 86,
+          "endOffset": 108
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWF",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 288,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 288,
+          "endLine": 288,
+          "startOffset": 11,
+          "endOffset": 26
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWG",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 289,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 289,
+          "endLine": 289,
+          "startOffset": 19,
+          "endOffset": 38
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiWH",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 299,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 299,
+          "endLine": 299,
+          "startOffset": 21,
+          "endOffset": 64
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ooF09E0InapsiV_",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_v4.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "log-injection",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 46,
+        "message": "Make sure that this logger's configuration is safe.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 46,
+          "endLine": 50,
+          "startOffset": 0,
+          "endOffset": 1
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7onh09E0InapsiVw",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "log-injection",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 44,
+        "message": "Make sure that this logger's configuration is safe.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 44,
+          "endLine": 44,
+          "startOffset": 0,
+          "endOffset": 76
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7on-09E0InapsiV2",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi_v2/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "log-injection",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 44,
+        "message": "Make sure that this logger's configuration is safe.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 44,
+          "endLine": 44,
+          "startOffset": 0,
+          "endOffset": 76
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk7ono09E0InapsiVz",
+        "component": "PR_AGI-Alpha-Agent-v0_9:alpha_factory_v1/demos/meta_agentic_agi_v3/agents/agent_base.py",
+        "project": "PR_AGI-Alpha-Agent-v0_9",
+        "securityCategory": "log-injection",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 44,
+        "message": "Make sure that this logger's configuration is safe.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T06:28:24-0600",
+        "updateDate": "2025-12-28T06:28:24-0600",
+        "textRange": {
+          "startLine": 44,
+          "endLine": 44,
+          "startOffset": 0,
+          "endOffset": 76
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 442,
+      "pr_html_url": "https://github.com/WorkflowAI/WorkflowAI/pull/442",
+      "owner": "WorkflowAI",
+      "repo": "WorkflowAI",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 4,
+    "hotspots": [
+      {
+        "key": "AZtk9WJE09E0InapvKTK",
+        "component": "PR_WorkflowAI_442:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_442",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 851,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T06:35:43-0600",
+        "updateDate": "2025-12-28T06:35:43-0600",
+        "textRange": {
+          "startLine": 851,
+          "endLine": 851,
+          "startOffset": 29,
+          "endOffset": 44
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk9WJE09E0InapvKTL",
+        "component": "PR_WorkflowAI_442:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_442",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 872,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T06:35:43-0600",
+        "updateDate": "2025-12-28T06:35:43-0600",
+        "textRange": {
+          "startLine": 872,
+          "endLine": 872,
+          "startOffset": 68,
+          "endOffset": 83
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk9WI309E0InapvKS9",
+        "component": "PR_WorkflowAI_442:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_442",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 86,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T06:35:43-0600",
+        "updateDate": "2025-12-28T06:35:43-0600",
+        "textRange": {
+          "startLine": 86,
+          "endLine": 86,
+          "startOffset": 12,
+          "endOffset": 40
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtk9WI309E0InapvKS-",
+        "component": "PR_WorkflowAI_442:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_442",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 94,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T06:35:43-0600",
+        "updateDate": "2025-12-28T06:35:43-0600",
+        "textRange": {
+          "startLine": 94,
+          "endLine": 94,
+          "startOffset": 19,
+          "endOffset": 47
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 361,
+      "pr_html_url": "https://github.com/Blaizzy/mlx-vlm/pull/361",
+      "owner": "Blaizzy",
+      "repo": "mlx-vlm",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlHwd809E0Inap_yGk",
+        "component": "PR_mlx-vlm_361:mlx_vlm/tests/test_utils.py",
+        "project": "PR_mlx-vlm_361",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 258,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T07:21:23-0600",
+        "updateDate": "2025-12-28T07:21:23-0600",
+        "textRange": {
+          "startLine": 258,
+          "endLine": 258,
+          "startOffset": 48,
+          "endOffset": 60
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 179,
+      "pr_html_url": "https://github.com/DannyMac180/meta-agent/pull/179",
+      "owner": "DannyMac180",
+      "repo": "meta-agent",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlJGcc09E0InapCKtT",
+        "component": "PR_meta-agent_179:src/meta_agent/template_mixer.py",
+        "project": "PR_meta-agent_179",
+        "securityCategory": "xss",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 42,
+        "message": "Make sure disabling auto-escaping feature is safe here.",
+        "author": "mcateerd2@gmail.com",
+        "creationDate": "2025-12-28T07:27:15-0600",
+        "updateDate": "2025-12-28T07:27:15-0600",
+        "textRange": {
+          "startLine": 42,
+          "endLine": 42,
+          "startOffset": 19,
+          "endOffset": 45
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 3102,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/3102",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlOIEs09E0InapKPkh",
+        "component": "PR_AGI-Alpha-Agent-v0_3102:scripts/generate_demo_docs.py",
+        "project": "PR_AGI-Alpha-Agent-v0_3102",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 117,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T07:49:02-0600",
+        "updateDate": "2025-12-28T07:49:02-0600",
+        "textRange": {
+          "startLine": 117,
+          "endLine": 117,
+          "startOffset": 27,
+          "endOffset": 36
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 19117,
+      "pr_html_url": "https://github.com/vllm-project/vllm/pull/19117",
+      "owner": "vllm-project",
+      "repo": "vllm",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlZouE09E0InapeERM",
+        "component": "PR_vllm_19117:tests/distributed/conftest.py",
+        "project": "PR_vllm_19117",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 22,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T08:38:49-0600",
+        "updateDate": "2025-12-28T08:38:49-0600",
+        "textRange": {
+          "startLine": 22,
+          "endLine": 22,
+          "startOffset": 11,
+          "endOffset": 39
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 1067,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/1067",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtllcyv09E0InapxKLh",
+        "component": "PR_AGI-Alpha-Agent-v0_1067:tests/test_alert_webhook.py",
+        "project": "PR_AGI-Alpha-Agent-v0_1067",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 106,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T09:31:02-0600",
+        "updateDate": "2025-12-28T09:31:02-0600",
+        "textRange": {
+          "startLine": 106,
+          "endLine": 106,
+          "startOffset": 30,
+          "endOffset": 43
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 2083,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/2083",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkStmA09E0Inap_w3m",
+        "component": "PR_AGI-Alpha-Agent-v0_2083:alpha_factory_v1/demos/macro_sentinel/data_feeds.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2083",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 220,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T03:29:31-0600",
+        "updateDate": "2025-12-28T03:29:31-0600",
+        "textRange": {
+          "startLine": 220,
+          "endLine": 220,
+          "startOffset": 8,
+          "endOffset": 52
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 2284,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/2284",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlo5lE09E0Inap1tH6",
+        "component": "PR_AGI-Alpha-Agent-v0_2284:alpha_factory_v1/demos/alpha_agi_business_3_v1/alpha_agi_business_3_v1.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2284",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 146,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T09:46:01-0600",
+        "updateDate": "2025-12-28T09:46:01-0600",
+        "textRange": {
+          "startLine": 146,
+          "endLine": 146,
+          "startOffset": 86,
+          "endOffset": 110
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 129,
+      "pr_html_url": "https://github.com/tomquist/b2500-meter/pull/129",
+      "owner": "tomquist",
+      "repo": "b2500-meter",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtlqi1H09E0Inap4ZJY",
+        "component": "PR_b2500-meter_129:powermeter/modbus_test.py",
+        "project": "PR_b2500-meter_129",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 16,
+        "message": "Make sure using this hardcoded IP address \"192.168.1.14\" is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T09:53:25-0600",
+        "updateDate": "2025-12-28T09:53:25-0600",
+        "textRange": {
+          "startLine": 16,
+          "endLine": 16,
+          "startOffset": 47,
+          "endOffset": 61
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 2300,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/2300",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkWARF09E0InapEo0V",
+        "component": "PR_AGI-Alpha-Agent-v0_2300:tests/test_evolution_worker.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2300",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 68,
+        "message": "Make sure that expanding this archive file is safe here.",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T03:43:51-0600",
+        "updateDate": "2025-12-28T03:43:51-0600",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startOffset": 9,
+          "endOffset": 21
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 19,
+      "pr_html_url": "https://github.com/leonteale/pentestpackage/pull/19",
+      "owner": "leonteale",
+      "repo": "pentestpackage",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkPfrm09E0Inap62Lk",
+        "component": "PR_pentestpackage_19:tests/test_whois_perms.py",
+        "project": "PR_pentestpackage_19",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 39,
+        "message": "Make sure using this hardcoded IP address \"1.1.1.1\" is safe here.",
+        "author": "leonteale89@gmail.com",
+        "creationDate": "2025-12-28T03:15:13-0600",
+        "updateDate": "2025-12-28T03:15:13-0600",
+        "textRange": {
+          "startLine": 39,
+          "endLine": 39,
+          "startOffset": 13,
+          "endOffset": 22
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 447,
+      "pr_html_url": "https://github.com/WorkflowAI/WorkflowAI/pull/447",
+      "owner": "WorkflowAI",
+      "repo": "WorkflowAI",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 4,
+    "hotspots": [
+      {
+        "key": "AZtl6t6I09E0InapRF_u",
+        "component": "PR_WorkflowAI_447:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_447",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 799,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:03:48-0600",
+        "updateDate": "2025-12-28T11:03:48-0600",
+        "textRange": {
+          "startLine": 799,
+          "endLine": 799,
+          "startOffset": 29,
+          "endOffset": 44
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtl6t6J09E0InapRF_v",
+        "component": "PR_WorkflowAI_447:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_447",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 820,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:03:48-0600",
+        "updateDate": "2025-12-28T11:03:48-0600",
+        "textRange": {
+          "startLine": 820,
+          "endLine": 820,
+          "startOffset": 68,
+          "endOffset": 83
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtl6t5w09E0InapRF_m",
+        "component": "PR_WorkflowAI_447:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_447",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 86,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:03:48-0600",
+        "updateDate": "2025-12-28T11:03:48-0600",
+        "textRange": {
+          "startLine": 86,
+          "endLine": 86,
+          "startOffset": 12,
+          "endOffset": 40
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtl6t5w09E0InapRF_n",
+        "component": "PR_WorkflowAI_447:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_447",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 94,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:03:48-0600",
+        "updateDate": "2025-12-28T11:03:48-0600",
+        "textRange": {
+          "startLine": 94,
+          "endLine": 94,
+          "startOffset": 19,
+          "endOffset": 47
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 2305,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/2305",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 2,
+    "hotspots": [
+      {
+        "key": "AZtl7S_v09E0InapSI5-",
+        "component": "PR_AGI-Alpha-Agent-v0_2305:alpha_factory_v1/demos/alpha_agi_insight_v1/src/interface/api_server.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2305",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 151,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T11:06:23-0600",
+        "updateDate": "2025-12-28T11:06:23-0600",
+        "textRange": {
+          "startLine": 151,
+          "endLine": 151,
+          "startOffset": 53,
+          "endOffset": 72
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtl7S_v09E0InapSI6A",
+        "component": "PR_AGI-Alpha-Agent-v0_2305:alpha_factory_v1/demos/alpha_agi_insight_v1/src/interface/api_server.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2305",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 301,
+        "message": "Make sure that hashing data is safe here.",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T11:06:23-0600",
+        "updateDate": "2025-12-28T11:06:23-0600",
+        "textRange": {
+          "startLine": 301,
+          "endLine": 301,
+          "startOffset": 27,
+          "endOffset": 31
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 2377,
+      "pr_html_url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0/pull/2377",
+      "owner": "MontrealAI",
+      "repo": "AGI-Alpha-Agent-v0",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkQygz09E0Inap8r-Y",
+        "component": "PR_AGI-Alpha-Agent-v0_2377:alpha_factory_v1/ui/app.py",
+        "project": "PR_AGI-Alpha-Agent-v0_2377",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 9,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "info@montreal.ai",
+        "creationDate": "2025-12-28T03:21:05-0600",
+        "updateDate": "2025-12-28T03:21:05-0600",
+        "textRange": {
+          "startLine": 9,
+          "endLine": 9,
+          "startOffset": 6,
+          "endOffset": 74
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 431,
+      "pr_html_url": "https://github.com/WorkflowAI/WorkflowAI/pull/431",
+      "owner": "WorkflowAI",
+      "repo": "WorkflowAI",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 4,
+    "hotspots": [
+      {
+        "key": "AZtmAjIG09E0InapaA8B",
+        "component": "PR_WorkflowAI_431:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_431",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 851,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:29:18-0600",
+        "updateDate": "2025-12-28T11:29:18-0600",
+        "textRange": {
+          "startLine": 851,
+          "endLine": 851,
+          "startOffset": 29,
+          "endOffset": 44
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmAjIG09E0InapaA8C",
+        "component": "PR_WorkflowAI_431:api/tests/component/openai_proxy/openai_proxy_test.py",
+        "project": "PR_WorkflowAI_431",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 872,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:29:18-0600",
+        "updateDate": "2025-12-28T11:29:18-0600",
+        "textRange": {
+          "startLine": 872,
+          "endLine": 872,
+          "startOffset": 68,
+          "endOffset": 83
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmAjHv09E0InapaA70",
+        "component": "PR_WorkflowAI_431:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_431",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 86,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:29:18-0600",
+        "updateDate": "2025-12-28T11:29:18-0600",
+        "textRange": {
+          "startLine": 86,
+          "endLine": 86,
+          "startOffset": 12,
+          "endOffset": 40
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmAjHv09E0InapaA71",
+        "component": "PR_WorkflowAI_431:api/tests/component/run/openai_test.py",
+        "project": "PR_WorkflowAI_431",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 94,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "guillaume@workflowai.com",
+        "creationDate": "2025-12-28T11:29:18-0600",
+        "updateDate": "2025-12-28T11:29:18-0600",
+        "textRange": {
+          "startLine": 94,
+          "endLine": 94,
+          "startOffset": 19,
+          "endOffset": 47
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 173,
+      "pr_html_url": "https://github.com/KenYu910645/MapleStoryAutoLevelUp/pull/173",
+      "owner": "KenYu910645",
+      "repo": "MapleStoryAutoLevelUp",
+      "agent": "OpenAI_Codex"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtmGdX009E0InapjJrX",
+        "component": "PR_MapleStoryAutoLevelUp_173:src/legacy/mapleStoryAutoLevelUp_legacy.py",
+        "project": "PR_MapleStoryAutoLevelUp_173",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 1034,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "luckyyu910645@gmail.com",
+        "creationDate": "2025-12-28T11:55:21-0600",
+        "updateDate": "2025-12-28T11:55:21-0600",
+        "textRange": {
+          "startLine": 1034,
+          "endLine": 1034,
+          "startOffset": 17,
+          "endOffset": 66
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 35081,
+      "pr_html_url": "https://github.com/PostHog/posthog/pull/35081",
+      "owner": "PostHog",
+      "repo": "posthog",
+      "agent": "Cursor"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtmiuv409E0Inap6Edi",
+        "component": "PR_posthog_35081:posthog/urls.py",
+        "project": "PR_posthog_35081",
+        "securityCategory": "csrf",
+        "vulnerabilityProbability": "HIGH",
+        "status": "TO_REVIEW",
+        "line": 176,
+        "message": "Make sure disabling CSRF protection is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T13:57:07-0600",
+        "updateDate": "2025-12-28T13:57:07-0600",
+        "textRange": {
+          "startLine": 176,
+          "endLine": 176,
+          "startOffset": 62,
+          "endOffset": 73
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 4459,
+      "pr_html_url": "https://github.com/getsentry/sentry-python/pull/4459",
+      "owner": "getsentry",
+      "repo": "sentry-python",
+      "agent": "Cursor"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtmqOQm09E0Inap_bGX",
+        "component": "PR_sentry-python_4459:sentry_sdk/profiler/transaction_profiler.py",
+        "project": "PR_sentry-python_4459",
+        "securityCategory": "weak-cryptography",
+        "vulnerabilityProbability": "MEDIUM",
+        "status": "TO_REVIEW",
+        "line": 290,
+        "message": "Make sure that using this pseudorandom number generator is safe here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:31:30-0600",
+        "updateDate": "2025-12-28T14:31:30-0600",
+        "textRange": {
+          "startLine": 290,
+          "endLine": 290,
+          "startOffset": 23,
+          "endOffset": 38
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 62455,
+      "pr_html_url": "https://github.com/airbytehq/airbyte/pull/62455",
+      "owner": "airbytehq",
+      "repo": "airbyte",
+      "agent": "Devin"
+    },
+    "hotspots_count": 11,
+    "hotspots": [
+      {
+        "key": "AZtmuSxt09E0InapCrLZ",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 18,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 18,
+          "endLine": 18,
+          "startOffset": 42,
+          "endOffset": 73
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLf",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 66,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 66,
+          "endLine": 66,
+          "startOffset": 42,
+          "endOffset": 70
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLl",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 104,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 104,
+          "endLine": 104,
+          "startOffset": 25,
+          "endOffset": 53
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLn",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 115,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 115,
+          "endLine": 115,
+          "startOffset": 51,
+          "endOffset": 79
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLo",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 116,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 116,
+          "endLine": 116,
+          "startOffset": 52,
+          "endOffset": 80
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLb",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 37,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 37,
+          "endLine": 37,
+          "startOffset": 45,
+          "endOffset": 65
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLh",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 88,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 88,
+          "endLine": 88,
+          "startOffset": 42,
+          "endOffset": 62
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLi",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 97,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 97,
+          "endLine": 97,
+          "startOffset": 59,
+          "endOffset": 79
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLj",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 98,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 98,
+          "endLine": 98,
+          "startOffset": 55,
+          "endOffset": 75
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLk",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 99,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 99,
+          "endLine": 99,
+          "startOffset": 54,
+          "endOffset": 74
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtmuSxt09E0InapCrLm",
+        "component": "PR_airbyte_62455:airbyte-integrations/connectors/source-file/unit_tests/test_proxy_certificate_support.py",
+        "project": "PR_airbyte_62455",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 109,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T14:46:41-0600",
+        "updateDate": "2025-12-28T14:46:41-0600",
+        "textRange": {
+          "startLine": 109,
+          "endLine": 109,
+          "startOffset": 45,
+          "endOffset": 65
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 1465,
+      "pr_html_url": "https://github.com/reflex-dev/reflex-web/pull/1465",
+      "owner": "reflex-dev",
+      "repo": "reflex-web",
+      "agent": "Devin"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtkf10809E0InapRaa8",
+        "component": "PR_reflex-web_1465:pcweb/meta/meta.py",
+        "project": "PR_reflex-web_1465",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 91,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T04:26:52-0600",
+        "updateDate": "2025-12-28T04:26:52-0600",
+        "textRange": {
+          "startLine": 91,
+          "endLine": 91,
+          "startOffset": 39,
+          "endOffset": 48
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 1814,
+      "pr_html_url": "https://github.com/crewAIInc/crewAI/pull/1814",
+      "owner": "crewAIInc",
+      "repo": "crewAI",
+      "agent": "Devin"
+    },
+    "hotspots_count": 4,
+    "hotspots": [
+      {
+        "key": "AZtm1VDr09E0InapJvud",
+        "component": "PR_crewAI_1814:tests/task_test.py",
+        "project": "PR_crewAI_1814",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 722,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T15:20:06-0600",
+        "updateDate": "2025-12-28T15:20:06-0600",
+        "textRange": {
+          "startLine": 722,
+          "endLine": 722,
+          "startOffset": 20,
+          "endOffset": 52
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtm1VDr09E0InapJvue",
+        "component": "PR_crewAI_1814:tests/task_test.py",
+        "project": "PR_crewAI_1814",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 731,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T15:20:06-0600",
+        "updateDate": "2025-12-28T15:20:06-0600",
+        "textRange": {
+          "startLine": 731,
+          "endLine": 731,
+          "startOffset": 31,
+          "endOffset": 56
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtm1VDr09E0InapJvuf",
+        "component": "PR_crewAI_1814:tests/task_test.py",
+        "project": "PR_crewAI_1814",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 739,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T15:20:06-0600",
+        "updateDate": "2025-12-28T15:20:06-0600",
+        "textRange": {
+          "startLine": 739,
+          "endLine": 739,
+          "startOffset": 31,
+          "endOffset": 56
+        },
+        "flows": []
+      },
+      {
+        "key": "AZtm1VDr09E0InapJvug",
+        "component": "PR_crewAI_1814:tests/task_test.py",
+        "project": "PR_crewAI_1814",
+        "securityCategory": "others",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 891,
+        "message": "Make sure publicly writable directories are used safely here.",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T15:20:06-0600",
+        "updateDate": "2025-12-28T15:20:06-0600",
+        "textRange": {
+          "startLine": 891,
+          "endLine": 891,
+          "startOffset": 20,
+          "endOffset": 37
+        },
+        "flows": []
+      }
+    ]
+  },
+  {
+    "pr_info": {
+      "pr_number": 114,
+      "pr_html_url": "https://github.com/appdotbuild/agent/pull/114",
+      "owner": "appdotbuild",
+      "repo": "agent",
+      "agent": "Devin"
+    },
+    "hotspots_count": 1,
+    "hotspots": [
+      {
+        "key": "AZtm4VHs09E0InapNIHN",
+        "component": "PR_agent_114:agent/api/agent_server/test_async_server.py",
+        "project": "PR_agent_114",
+        "securityCategory": "encrypt-data",
+        "vulnerabilityProbability": "LOW",
+        "status": "TO_REVIEW",
+        "line": 381,
+        "message": "Using http protocol is insecure. Use https instead",
+        "author": "noreply@github.com",
+        "creationDate": "2025-12-28T15:33:05-0600",
+        "updateDate": "2025-12-28T15:33:05-0600",
+        "textRange": {
+          "startLine": 381,
+          "endLine": 381,
+          "startOffset": 15,
+          "endOffset": 48
+        },
+        "flows": []
+      }
+    ]
+  }
+]
