@@ -1,0 +1,15 @@
+#dependencies for Scripts/result-analysis.ipynb and Scripts/SonarAnalysis.ipynb
+cliffs-delta
+matplotlib
+numpy
+pandas
+python-dotenv
+requests
+scikit-posthocs
+scipy
+seaborn
+notebook
+jupyter
+pyarrow
+fastparquet
+huggingface_hub

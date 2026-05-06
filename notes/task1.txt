@@ -1,0 +1,58 @@
+All_PR_Issues_Details_with_LOC - this seems to be a dataset of SonarQube issues identified in the PR. The columns: Issue Type, Severity represent 
+the SonarQube issues. This dataset also includes columns: StartLine, EndLine that explicitly show the LOC, hence the addition _LOC in the filename.
+This file is not provided in the original AIDev dataset since it has results of running SonarQube
+
+All_PR_Sonar_Results.csv - this seems as direct result of running SonarQube on a PR. It has unparsed issues in the "issues" column. Additionaly, some metadata
+like what agent authored PR, merged sha, etc
+
+All_PR_Sonar_Results.json - the same as .csv file but in the JSON format.
+
+python_fix_prs.csv - Pull-request listing for Python fix PRs: ids, title and body text, agent, GitHub user/repo fields, state, and merge/close timestamps (the text-heavy master list).
+
+python_fix_prs_with_stats.csv - Same PR ids and agent plus per-PR diff stats: additions, deletions, changed_files, and changed_loc (compact numeric companion to python_fix_prs.csv).
+
+Security_Hotspots_Details.csv - Flat table of SonarQube SECURITY_HOTSPOT rows: repo/PR, agent, severity, message, file and line span, rule.
+
+Security_Hotspots.json - Same hotspots grouped per PR with full Sonar metadata (keys, textRange, flows, counts).
+
+
+These datasets are not provided in the original AIDev dataset.
+
+
+
+
+
+Selected first 3 PRs from python_fix_prs.csv file
+
+
+https://github.com/Deep-Learning-Profiling-Tools/triton-viz/pull/86: 
+
+This is a bug fix PR. It literally says "This commit addresses multiple critical issues in the visualization system:"
+
+And then provides specific issues in the frontend and backend that were fixed. Commits start with "fix:"
+
+Recorded agent Claude_Code is correct. 
+
+
+https://github.com/numbagg/numbagg/pull/391
+
+"This change modifies nancorrmatrix, move_nancorrmatrix, and move_exp_nancorrmatrix to correctly 
+return NaN for correlation values when the variance of a series is zero. 
+Previously, the diagonal elements were explicitly set to 1.0, which is incorrect for constant data."
+
+
+This PR message indicates that this is indeed a bug fix. 
+
+It lists Claude as a co-author, which is captured in the csv file. 
+
+
+
+https://github.com/haasonsaas/ocode/pull/7
+
+"This PR comprehensively addresses Windows compatibility issues across the entire OCode codebase, 
+ensuring seamless cross-platform operation on Windows, macOS, and Linux."
+"Core Windows Compatibility Fixes..."
+
+Based on the PR message, this is indeed a bug-fixing PR. 
+
+It correctly lists claude as a co-author of commits.
